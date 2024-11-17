@@ -1,7 +1,6 @@
 # 🙇‍♂️ Introduce
 
-<div align="center">
-<img src="./images/profile.png" alt="Profile Image" width="200" style="border-radius: 50%;"/>
+<div align="center">width="300" style="border-radius: 50%;"/>
 <p>3년차 백앤드 개발자 김태훈입니다.</p>
 </div>
 
