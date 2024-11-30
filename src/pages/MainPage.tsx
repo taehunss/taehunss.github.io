@@ -1,5 +1,5 @@
 import GithubImage from "src/assets/mark-github-24.png";
-import * as S from "./MainPage.style";
+import * as S from "./Main/MainPage.style";
 const MainPage = () => {
   return (
     <S.Container>

@@ -6,21 +6,12 @@ export const Container = styled.div`
   height: 100vh;
 `;
 
-export const BorderLine = styled.div`
-  width: 97%;
-  border-bottom: 1px solid #ffffff;
-  margin: 0 auto;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 400;
-  padding: 10px;
-`;
-
 export const Header = styled.header`
   width: 100%;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  padding-top: 30px;
 `;
 
 export const HeaderLeftWrapper = styled.div`
@@ -67,6 +58,3 @@ export const EmailAddress = styled.text`
   color: #cccccc;
   margin: 0px 12px;
 `;
-
-export const Body = styled.div``;
-export const Footer = styled.footer``;
