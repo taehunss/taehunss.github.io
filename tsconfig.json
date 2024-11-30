@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "target": "ES2020",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    // 아래 사항은 마이그레이션 완료 후에 반대로 적용
+    "allowJs": true,
+    "noImplicitAny": false
+  },
+  "include": [
+    "./__tests__/**/*",
+    "./__mocks__/**/*",
+    "./src/**/*",
+    "./*.js",
+    "./*.ts"
+  ],
+  "exclude": [
+    "./node_modules",
+    "./*.config.js",
+    "./*.config.ts",
+    "./**/*.test.js",
+    "./**/*.test.ts",
+    "./**/*.spec.js",
+    "./**/*.spec.ts"
+  ]
+}
