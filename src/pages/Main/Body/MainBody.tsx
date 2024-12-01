@@ -1,7 +1,7 @@
-import { Skill } from "./\bSkill/Skill";
 import { AboutMe } from "./AboutMe/AboutMe";
 import { Acheivement } from "./Acheivements/Acheivements";
 import { Career } from "./Career/Career";
+import { Skill } from "./Skill/Skill";
 
 export const MainBody = () => {
   return (
@@ -10,17 +10,6 @@ export const MainBody = () => {
       <Career />
       <Skill />
       <Acheivement />
-      {/* <S.Body>
-        <h1>Body</h1>
-      </S.Body>
-      <BorderLine>Skills</BorderLine>
-      <S.Body>
-        <h1>Body</h1>
-      </S.Body>
-      <BorderLine>Achievements</BorderLine>
-      <S.Body>
-        <h1>Body</h1>
-      </S.Body> */}
     </>
   );
 };

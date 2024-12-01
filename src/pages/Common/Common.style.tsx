@@ -14,6 +14,10 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 export const LeftBox = styled.div`
@@ -24,10 +28,19 @@ export const LeftBox = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    display: none;
+  }
 `;
 export const RightBox = styled.p`
   margin: 20px auto;
   width: 50%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const TitleH1 = styled.h1`

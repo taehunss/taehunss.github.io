@@ -32,6 +32,9 @@ export const Name = styled.h1`
   font-size: 28px;
   color: #ffffff;
   margin: 0px 8px;
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
 `;
 
 export const Job = styled.h2`
@@ -39,6 +42,9 @@ export const Job = styled.h2`
   font-weight: 400;
   margin: 0px 10px;
   color: #cccccc;
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
 `;
 
 export const GithubImage = styled.img`
@@ -48,6 +54,10 @@ export const GithubImage = styled.img`
   cursor: pointer;
   &:hover {
     opacity: 0.8;
+  }
+  @media (max-width: 768px) {
+    width: 20px;
+    height: 20px;
   }
 `;
 
@@ -59,5 +69,8 @@ export const EmailAddress = styled.text`
   margin: 0px 12px;
   &:hover {
     opacity: 0.8;
+  }
+  @media (max-width: 768px) {
+    font-size: 14px;
   }
 `;
