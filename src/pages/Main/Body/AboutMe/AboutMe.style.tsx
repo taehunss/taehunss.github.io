@@ -7,9 +7,11 @@ export const Container = styled.div`
 `;
 
 export const ProfileImage = styled.img`
-  margin: 20px auto;
+  margin: 30px auto;
   width: 25%;
-  height: 25%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
   border: none;
 `;
 

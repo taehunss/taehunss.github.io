@@ -1,10 +1,11 @@
 import { AboutMe } from "./AboutMe/AboutMe";
+import { Career } from "./Career/Career";
 
 export const MainBody = () => {
   return (
     <>
       <AboutMe />
-      {/* <BorderLine>Career</BorderLine> */}
+      <Career />
       {/* <S.Body>
         <h1>Body</h1>
       </S.Body>
