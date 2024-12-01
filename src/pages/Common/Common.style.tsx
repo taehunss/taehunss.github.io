@@ -44,6 +44,20 @@ export const TitleH3 = styled.h3`
   font-size: 20px;
   font-weight: 500;
 `;
+export const Blank1 = styled.div`
+  width: 100%;
+  height: 36px;
+`;
+
+export const Blank2 = styled.div`
+  width: 100%;
+  height: 24px;
+`;
+
+export const Blank3 = styled.div`
+  width: 100%;
+  height: 20px;
+`;
 
 export const Period = styled.p`
   font-size: 16px;
@@ -55,10 +69,20 @@ export const Description = styled.p`
   text-align: center;
 `;
 
-export const DescriptionList = styled.ul`
+export const List = styled.ul`
   text-align: left;
 `;
 
-export const DescriptionListItem = styled.li`
+export const ListItem = styled.li`
   text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+`;
+
+//하위 아이템
+export const ListSubItem = styled.li`
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 20px; // 들여쓰기 추가
 `;

@@ -1,7 +1,5 @@
-import styled from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 export const Overlay = styled.div`
-  width: 100%;
-  height: 100vh;
   background-color: #2d2d2d;
 `;
 
@@ -11,4 +9,13 @@ export const Container = styled.div`
   height: 100vh;
   width: 75%;
   margin: auto;
+  height: auto;
+  overflow-y: auto;
+`;
+export const GlobalStyle = createGlobalStyle`
+  body {
+    background-color: #2d2d2d; // 추가: body의 배경색 설정
+    margin: 0;
+    padding: 0;
+  }
 `;
