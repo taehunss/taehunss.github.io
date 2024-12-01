@@ -11,6 +11,9 @@ export const Container = styled.div`
   margin: auto;
   height: auto;
   overflow-y: auto;
+  @media (max-width: 768px) {
+    width: 95%;
+  }
 `;
 export const GlobalStyle = createGlobalStyle`
   body {
