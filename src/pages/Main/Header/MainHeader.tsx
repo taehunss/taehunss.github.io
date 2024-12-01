@@ -16,7 +16,9 @@ export const MainHeader = () => {
         >
           <S.GithubImage src={GithubImage} />
         </a>
-        <S.EmailAddress>taehun@tesser.io</S.EmailAddress>
+        <a href="mailto:taehun@tesser.io" style={{ textDecoration: "none" }}>
+          <S.EmailAddress>taehun@tesser.io</S.EmailAddress>
+        </a>
       </S.HeaderRightWrapper>
     </S.Header>
   );

@@ -57,4 +57,7 @@ export const EmailAddress = styled.text`
   font-weight: 400;
   color: #cccccc;
   margin: 0px 12px;
+  &:hover {
+    opacity: 0.8;
+  }
 `;

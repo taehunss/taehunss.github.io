@@ -6,7 +6,7 @@ export const BorderLine = styled.div`
   margin: 0 auto;
   text-align: center;
   font-size: 28px;
-  font-weight: 400;
+  font-weight: 800;
   padding: 10px;
 `;
 
@@ -32,17 +32,17 @@ export const RightBox = styled.p`
 
 export const TitleH1 = styled.h1`
   font-size: 32px;
-  font-weight: 400;
+  font-weight: 800;
 `;
 
 export const TitleH2 = styled.h2`
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 800;
 `;
 
 export const TitleH3 = styled.h3`
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 800;
 `;
 export const Blank1 = styled.div`
   width: 100%;
@@ -57,6 +57,13 @@ export const Blank2 = styled.div`
 export const Blank3 = styled.div`
   width: 100%;
   height: 20px;
+`;
+
+export const TimeLine = styled.div`
+  width: 0%;
+  height: 10px;
+  border: 0.2px solid #808080;
+  margin: 3px auto;
 `;
 
 export const Period = styled.p`
@@ -76,7 +83,26 @@ export const List = styled.ul`
 export const ListItem = styled.li`
   text-align: left;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 700;
+`;
+
+export const SkillTag = styled.span`
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 3px 4px;
+  padding: 1px 6px;
+  border-radius: 4px;
+`;
+
+export const SkillTag1 = styled(SkillTag)`
+  background-color: #003860;
+`;
+export const SkillTag2 = styled(SkillTag)`
+  background-color: #5d007c;
+`;
+export const SkillTag3 = styled(SkillTag)`
+  background-color: #085d00;
 `;
 
 //하위 아이템
@@ -85,4 +111,8 @@ export const ListSubItem = styled.li`
   font-size: 16px;
   font-weight: 400;
   margin-left: 20px; // 들여쓰기 추가
+`;
+
+export const Highlight = styled.span`
+  color: #2aa2f5;
 `;
